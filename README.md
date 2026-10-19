@@ -11,7 +11,7 @@
 - Beautiful Soup 4 `python -m pip install beautifulsoup4`
 - Google Takeout zip file containing Gemini App My Activity. 
 
-## Useage
+## Usage
 
 `python takeout-gemini-md.py --takeoutzip takeout.zip [--out gemini_log]`
 
@@ -36,7 +36,7 @@ index.csv */simple inventory file: file name, /*
 
 [takeout-gemini-md.py](takeout-gemini-md)
 
-## Limiations
+## Limitations
 
 - Google appears to change the folder and MyActivity file name depending on the account's language setting. Code supports English and Japanese.
 - Does not support MyActivity Takeouts spanning multiple zips.
