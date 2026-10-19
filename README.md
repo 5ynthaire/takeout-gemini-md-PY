@@ -7,8 +7,8 @@
 
 ## Prerequisites
 
-- Python v3.14+
-- Beautiful Soup 4
+- Python v3.10 or later
+- Beautiful Soup 4 `python -m pip install beautifulsoup4`
 - Google Takeout zip file containing Gemini App My Activity. 
 
 ## Useage
@@ -35,6 +35,11 @@ index.csv */simple inventory file: file name, /*
 ## Source Code
 
 [takeout-gemini-md.py](takeout-gemini-md)
+
+## Limiations
+
+- Google appears to change the folder and MyActivity file name depending on the account's language setting. Code supports English and Japanese.
+- Does not support MyActivity Takeouts spanning multiple zips.
 
 ## LICENSE
 
